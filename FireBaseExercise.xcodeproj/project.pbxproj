@@ -16,6 +16,9 @@
 		2FA882F42350BD6200478F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA882F22350BD6200478F29 /* LaunchScreen.storyboard */; };
 		2FA882FC2350C7CF00478F29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FA882FB2350C7CF00478F29 /* GoogleService-Info.plist */; };
 		2FA882FE2350EA1100478F29 /* ViewInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA882FD2350EA1100478F29 /* ViewInfoController.swift */; };
+		2FFDC0A923526EEC00EB4214 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDC0A823526EEC00EB4214 /* User.swift */; };
+		2FFDC0AB2352744100EB4214 /* ViewUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDC0AA2352744100EB4214 /* ViewUserController.swift */; };
+		2FFDC0AD235274A000EB4214 /* TableViewUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDC0AC235274A000EB4214 /* TableViewUserCell.swift */; };
 		84E4CAAC7516B71C557B078E /* Pods_FireBaseExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F1636B1AFF1E7C9FAF065F /* Pods_FireBaseExercise.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +34,9 @@
 		2FA882F52350BD6200478F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FA882FB2350C7CF00478F29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2FA882FD2350EA1100478F29 /* ViewInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInfoController.swift; sourceTree = "<group>"; };
+		2FFDC0A823526EEC00EB4214 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2FFDC0AA2352744100EB4214 /* ViewUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUserController.swift; sourceTree = "<group>"; };
+		2FFDC0AC235274A000EB4214 /* TableViewUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUserCell.swift; sourceTree = "<group>"; };
 		9B66CD6A4654510C35813263 /* Pods-FireBaseExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseExercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireBaseExercise/Pods-FireBaseExercise.release.xcconfig"; sourceTree = "<group>"; };
 		9DB26368E22222491937EB61 /* Pods-FireBaseExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseExercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireBaseExercise/Pods-FireBaseExercise.debug.xcconfig"; sourceTree = "<group>"; };
 		F8F1636B1AFF1E7C9FAF065F /* Pods_FireBaseExercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireBaseExercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +85,9 @@
 				2FA882ED2350BD6100478F29 /* FireBaseExercise.xcdatamodeld */,
 				2FA882FB2350C7CF00478F29 /* GoogleService-Info.plist */,
 				2FA882FD2350EA1100478F29 /* ViewInfoController.swift */,
+				2FFDC0A823526EEC00EB4214 /* User.swift */,
+				2FFDC0AA2352744100EB4214 /* ViewUserController.swift */,
+				2FFDC0AC235274A000EB4214 /* TableViewUserCell.swift */,
 			);
 			path = FireBaseExercise;
 			sourceTree = "<group>";
@@ -243,6 +252,9 @@
 			files = (
 				2FA882E92350BD6100478F29 /* ViewController.swift in Sources */,
 				2FA882FE2350EA1100478F29 /* ViewInfoController.swift in Sources */,
+				2FFDC0A923526EEC00EB4214 /* User.swift in Sources */,
+				2FFDC0AB2352744100EB4214 /* ViewUserController.swift in Sources */,
+				2FFDC0AD235274A000EB4214 /* TableViewUserCell.swift in Sources */,
 				2FA882E52350BD6100478F29 /* AppDelegate.swift in Sources */,
 				2FA882EF2350BD6100478F29 /* FireBaseExercise.xcdatamodeld in Sources */,
 				2FA882E72350BD6100478F29 /* SceneDelegate.swift in Sources */,

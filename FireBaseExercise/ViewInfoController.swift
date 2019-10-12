@@ -9,6 +9,8 @@
 import UIKit
 import Firebase
 
+var users = [User]()
+
 class ViewInfoController: UIViewController {
     
     @IBOutlet weak var email: UILabel!
@@ -30,8 +32,11 @@ class ViewInfoController: UIViewController {
             if let err = err {
                 print("Error getting documents: \(err)")
             } else {
+                var user = User(email: "", password: "")
                 for document in querySnapshot!.documents {
-                    print("\(document.documentID) => \(document.data())")
+                    user.email = document.data()["email"] as! String
+                    user.password = document.data()["password"] as! String
+                    users.append(user)
                 }
             }
         }
